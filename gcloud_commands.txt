@@ -1,0 +1,32 @@
+GCloud Basic Commands:-
+-------------------------
+
+Listing components-
+> gcloud components list
+
+Updating components-
+>gcloud components update
+
+Authorization (User account authorization,Service account authorization)
+>gcloud init
+
+
+To check Pojects details-
+>gcloud projects list 
+>gcloud projects list --format="json"
+>gcloud projects list --format="table(projectNumber,projectId,createTime)"
+
+------------------------------
+Create new Compute Engine:
+>gcloud compute instances create cdebatch5-
+
+>gcloud compute instances create cdebatch5-3 --image-project=ubuntu-os-cloud --image-family=ubuntu-1804-lts --machine-type=f1-micro
+
+>gcloud compute instances list
+
+
+Delete instan:
+>gcloud compute instances delete "my-first-instance"
+  
+ 
+
